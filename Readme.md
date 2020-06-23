@@ -17,10 +17,11 @@ Use DOM manipulation to display a random list of activities based on what the us
 
 You can call the Bored API like this to get a random activity:
 
-
+```
 let boredUrl = "http://www.boredapi.com/api/activity/"
 fetch(boredUrl).then(response => response.json()
   .then(activity => console.log(activity)))
+```
 You can also add query parameters to the url to search for activities based on a number of criteria, one of which is type. Valid types are:
 
 ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
