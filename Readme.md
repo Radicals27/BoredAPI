@@ -1,5 +1,8 @@
-## BoredAPI
-### API Challenge
+## 'BoredAPI' API Challenge
+
+#### Live site:
+
+https://radicals27.github.io/BoredAPI/
 
 #### Description of the API
 
