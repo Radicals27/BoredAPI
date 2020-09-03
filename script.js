@@ -1,4 +1,4 @@
-let boredUrl = "http://www.boredapi.com/api/activity/"
+let boredUrl = "https://www.boredapi.com/api/activity/"
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -10,7 +10,7 @@ let validTypes = ["education", "recreational", "social", "diy", "charity", "cook
 if(paramType)
 {
     if(validTypes.includes(paramType))
-        boredUrl = "http://www.boredapi.com/api/activity?type=" + paramType
+        boredUrl = "https://www.boredapi.com/api/activity?type=" + paramType
 }
 
 for(let count = 0; count < paramQuantity; count++)
